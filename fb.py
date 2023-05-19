@@ -62,7 +62,7 @@ def back():
 Riyad="Riyad"
 imt="Riyad"
 ak="CLASS3-"
-myid=uuid.uuid4().hex〔᚛:8᚜〕.upper()
+myid=uuid.uuid4().hex᚛:8᚜.upper()
 
             
 RED = '\033〔᚛38;5;196m'
