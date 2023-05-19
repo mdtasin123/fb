@@ -113,7 +113,7 @@ logo=("""\033[1;97m
 \033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
 \033[1;92m╚═════════════════════════════════════════╝""")
 try:
-    print("\033[38;5;46m\nTOOL UPDATE SUCCESSFUL\n")
+    print("\033[38;5;46m\n(TOOL UPDATE SUCCESSFUL DONE)\n")
     time.sleep(2)
     Riyad()
     print("\033[38;5;196m\nYOUR DEVICE IS NOT SUPPORTED!\n")
